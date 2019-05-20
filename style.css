@@ -1,0 +1,31 @@
+
+.container{
+    display: grid;
+    width:25%;
+    grid-template: repeat(8, 50px) / repeat(3,1fr) ;
+    grid-gap:0.5em;
+    border: 2px solid rgb(173, 25, 231);
+    background:rgb(59, 81, 88);
+  
+  }
+  .screen{
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end:3;
+    padding:15px;
+    border:6px outset rgb(173, 25, 231);
+    color:#ffff;
+    font-size:30px;
+    font-weight: bold;
+    background:rgb(45, 49, 53);
+  }
+  .footer{
+    grid-column-start:1;
+    grid-column-end:4;
+  
+    
+  }
+  .buttons{
+    background:silver;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+        <form name="forms">
+            
+            
+            <div class="container">
+                <input type="text"  name="answer" class="screen"> 
+                <input type="button"class="buttons"  value=" 1 " onclick="forms.answer.value+='1'">
+                <input type="button" class="buttons" value=" 2 " onclick="forms.answer.value+='2'">
+                <input type="button" class="buttons" value=" 3 " onclick="forms.answer.value+='3'">
+
+                <input type="button" class="buttons" value=" 4 " onclick="forms.answer.value+='4'">
+                <input type="button" class="buttons" value=" 5 " onclick="forms.answer.value+='5'">
+                <input type="button" class="buttons" value=" 6 " onclick="forms.answer.value+='6'">
+                <input type="button" class="buttons" value=" 7 " onclick="forms.answer.value+='7'">
+                <input type="button" class="buttons" value=" 8 " onclick="forms.answer.value+='8'">
+                <input type="button" class="buttons" value=" 9 " onclick="forms.answer.value+='9'">
+
+                <input type="button"class="buttons"  value=" + " onclick="forms.answer.value+='+'">
+                <input type="button" class="buttons" value=" - " onclick="forms.answer.value+='-'">
+                <input type="button" class="buttons" value=" * " onclick="forms.answer.value+='*'">
+
+                <input type="button" class="buttons" value=" / " onclick="forms.answer.value+='/'">
+                <input type="button" class="buttons" value=" 0 " onclick="forms.answer.value+='0'">
+                <input type="button" class="buttons" value=" = " onclick="forms.answer.value=eval(forms.answer.value)">
+                <input type="button"  value="Clear All" onclick="forms.answer.value = ''" class="footer buttons">
+
+            </div>
+            
+        </form>
+</body>
+
+</html>
